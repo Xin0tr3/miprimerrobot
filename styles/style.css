@@ -4,37 +4,41 @@ body {
     font-style: normal;
 }
 
-//logos
+/*logos*/
 .logos{
-    display:flex;
-    gap: 50px;
+    display: flex;
+    gap: 30px;
     width: 100%;
-    margin: 0 20px;
+    margin: 20px 0;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .logos-h-f{
     display: flex;
-    margin: 20px 20px;
-    flex: 1;
+    flex: 0 1 auto;
     align-items: center;
+    justify-content: center;
 }
 
 .logos-h-f img{
-    max-height:130px;
-    width: 100%;
+    max-height: 80px;
+    width: auto;
     height: auto;
     object-fit: contain;
 }
-//fin logos
+/*fin logos*/
 
-//Banner
+/*Banner*/
 .banner-principal{
     display: flex;
     justify-content: center;
 }
-//Fin Banner
+/*Fin Banner*/
 
-//Botones
+/*Botones*/
 .botones {
     padding: 40px 20px;
     display: flex;
@@ -114,7 +118,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-//Fin botones
+/*Fin botones*/
 
 /* Farm */
 .farm {
