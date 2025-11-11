@@ -2,12 +2,28 @@ body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+
+}
+
+h1{
+    font-size: 50px !important;
+    color: #1d4c96;
+}
+
+p{
+    font-size: 20px !important;
+    text-align: justify;
+}
+
+.negrita{
+    font-size: 60px !important;
+    font-weight: 900 !important;
 }
 
 /*logos*/
 .logos{
     display: flex;
-    gap: 30px;
+    gap: 150px;
     width: 100%;
     margin: 20px 0;
     padding: 20px;
@@ -29,12 +45,64 @@ body {
     height: auto;
     object-fit: contain;
 }
+
+@media only screen and (max-width: 991px) {
+    .logos{
+        gap: 40px !important;
+        max-width: 100%;
+    }
+}
 /*fin logos*/
 
-/*Banner*/
-.banner-principal{
+/* Inicio Navbar */
+nav{
+    background-color: #1d4c96;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
     display: flex;
     justify-content: center;
+    margin: 0;
+}
+
+nav li{
+    height: 50px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    padding: 0 50px;
+    border-right: 0.5px solid white;
+    border-left: 0.5px solid white;
+    text-align: center;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+nav a.izq{
+    border-left: 2px solid white;
+}
+
+nav a.der{
+    border-right: 2px solid white;
+}
+/*Fin Navbar*/
+
+/*Banner*/
+.banner-principal img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 /*Fin Banner*/
 
@@ -120,6 +188,25 @@ body {
 }
 /*Fin botones*/
 
+/* Iniciativa */
+
+.iniciativa{
+    margin: 60px 50px;
+    display: flex;
+}
+
+.foto-hub{
+    width:100%;
+    max-width:300px;
+    min-width:600px;
+}
+
+.texto-hub{
+    margin: 0 40px;
+}
+
+/* Fin Iniciativa */
+
 /* Farm */
 .farm {
     height: 400px;
@@ -185,3 +272,153 @@ body {
 }
 
 /* Fin Farm */
+
+/* Mi primer robot 2024 */
+
+.mpr2024{
+    width: 100%;
+    margin: 100px 0;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 40px;
+    box-sizing: border-box;
+}
+
+.foto-mpr2024{
+    width: 500px;
+    height: auto;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.texto-hub{
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Fin Mi primer robot 2024*/
+
+/* Enfoque */
+
+.enfoque{
+    margin: 60px 50px;
+    display: flex;
+}
+
+.foto-enfoque{
+    width:100%;
+    max-width:300px;
+    min-width:400px;
+}
+
+.texto-enfoque{
+    margin: 0 40px;
+}
+
+.listas-enfoque{
+    list-style: none;
+    padding: 0;
+}
+
+.punto-lista{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-negrita{
+    font-weight: 800 !important;
+    color: #1d4c96;
+}
+/* Fin Enfoque */
+
+/* Redes sociales */
+
+.redes-sociales{
+    display:flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.redes-sociales div{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.redes-sociales p{
+    text-align: center;
+    color: #1d4c96;
+    font-weight: 900 !important;
+    font-size: 25px !important;
+}
+
+.redes-sociales img{
+    object-fit: contain;
+}
+
+.redes-sociales a{
+    text-decoration: none;
+    font-size: 20px !important;
+    color: #1d4c96;
+}
+.redes-sociales a:hover{
+    color: #1d4c96;
+}
+
+/* obj-mpr */
+
+.obj-mpr{
+    margin: 60px 50px;
+    display: flex;
+    padding: 0 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.primer-cuadro{
+    flex: 0 0 30%;
+}
+
+.obj-mpr p{
+    text-align: justify;
+    padding: 10px 20px;
+    color: white;
+}
+
+.obj-mpr a{
+    text-decoration: none;
+    color: #32d900;
+    font-weight: 600 !important;
+}
+
+.obj-mpr a:hover{
+    text-decoration: none;
+    color: #32d900;
+}
+
+.obj-mpr img{
+    width:100%;
+    max-width:300px;
+    min-width:400px;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.logo-otto{
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    max-width:300px;
+}
+
+
+
+.contenido-mpr{
+    background-color: #1d4c96;
+    border-radius: 20px;
+}
