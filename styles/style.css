@@ -20,6 +20,17 @@ p{
     font-weight: 900 !important;
 }
 
+.textos{
+    text-align: center;
+    border-bottom: 1px solid #1d4c96;
+    margin: 30px 50px;
+}
+
+.disclaimer{
+    font-size: 14px !important;
+    margin: 30px 50px;
+}
+
 /*logos*/
 .logos{
     display: flex;
