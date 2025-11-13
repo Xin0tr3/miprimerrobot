@@ -52,6 +52,389 @@ p{
         max-width: 100%;
     }
 }
+
+/* Media Queries - Tablet 768px x 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    h1{
+        font-size: 36px !important;
+    }
+    
+    .negrita{
+        font-size: 42px !important;
+    }
+    
+    p{
+        font-size: 16px !important;
+    }
+    
+    nav a{
+        padding: 0 30px;
+        font-size: 14px;
+    }
+    
+    .botones-otto {
+        gap: 15px;
+    }
+    
+    .link-imagen{
+        width: 180px;
+    }
+    
+    .otto-g, .otto-f, .capsulas, .portafolio{
+        height: 200px;
+    }
+    
+    .texto-boton, .texto-boton-grande {
+        font-size: 20px;
+    }
+    
+    .iniciativa{
+        margin: 40px 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .foto-hub{
+        max-width: 250px;
+        min-width: 250px;
+        margin-bottom: 20px;
+    }
+    
+    .texto-hub{
+        margin: 0;
+    }
+    
+    .mpr2024{
+        padding: 0 30px;
+        flex-direction: column;
+        margin: 60px 0;
+    }
+    
+    .foto-mpr2024{
+        width: 350px;
+    }
+    
+    .enfoque{
+        margin: 40px 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .foto-enfoque{
+        max-width: 250px;
+        min-width: 250px;
+        margin-bottom: 20px;
+    }
+    
+    .texto-enfoque{
+        margin: 0;
+    }
+    
+    .obj-mpr{
+        margin: 40px 30px;
+        padding: 0 50px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .obj-mpr img{
+        max-width: 250px;
+        min-width: 250px;
+    }
+    
+    .redes-sociales{
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    
+    .redes-sociales p{
+        font-size: 18px !important;
+    }
+    
+    .redes-sociales a{
+        font-size: 16px !important;
+    }
+}
+
+/* Media Queries - Mobile 414px x 738px */
+@media only screen and (max-width: 414px) {
+    h1{
+        font-size: 24px !important;
+    }
+    
+    .negrita{
+        font-size: 28px !important;
+    }
+    
+    p{
+        font-size: 14px !important;
+    }
+    
+    .logos{
+        gap: 20px !important;
+        padding: 10px;
+    }
+    
+    .logos-h-f img{
+        max-height: 50px;
+    }
+    
+    nav ul{
+        flex-wrap: wrap;
+    }
+    
+    nav li{
+        height: auto;
+    }
+    
+    nav a{
+        padding: 10px 20px;
+        font-size: 12px;
+        border: none;
+    }
+    
+    nav a.izq, nav a.der{
+        border: none;
+    }
+    
+    .botones {
+        padding: 20px 10px;
+    }
+    
+    .botones-otto {
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .link-imagen{
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .otto-g, .otto-f, .capsulas, .portafolio{
+        height: 150px;
+    }
+    
+    .texto-boton, .texto-boton-grande {
+        font-size: 16px;
+    }
+    
+    .farm {
+        height: 250px;
+    }
+    
+    .otto-box {
+        width: 100%;
+        max-width: 280px;
+        height: 140px;
+    }
+    
+    .txt-farm p {
+        margin: 0 10px 0 60px;
+        font-size: 14px !important;
+    }
+    
+    .txt-farm button {
+        width: 100px;
+        height: 24px;
+        font-size: 12px;
+    }
+    
+    .farm-button {
+        margin-right: 50px;
+        margin-top: 5px;
+    }
+    
+    .iniciativa{
+        margin: 20px 15px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .foto-hub{
+        max-width: 100%;
+        min-width: auto;
+    }
+    
+    .texto-hub{
+        margin: 0;
+    }
+    
+    .mpr2024{
+        margin: 40px 0;
+        padding: 0 15px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .foto-mpr2024{
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .enfoque{
+        margin: 20px 15px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .foto-enfoque{
+        max-width: 100%;
+        min-width: auto;
+    }
+    
+    .texto-enfoque{
+        margin: 0;
+    }
+    
+    .listas-enfoque{
+        padding: 0 10px;
+    }
+    
+    .punto-lista{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .punto-lista img{
+        margin-bottom: 10px;
+        width: 50px;
+    }
+    
+    .obj-mpr{
+        margin: 20px 15px;
+        padding: 0;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .obj-mpr img{
+        max-width: 100%;
+        min-width: auto;
+    }
+    
+    .redes-sociales{
+        gap: 20px;
+        flex-direction: column;
+    }
+    
+    .redes-sociales p{
+        font-size: 14px !important;
+    }
+    
+    .redes-sociales a{
+        font-size: 12px !important;
+    }
+}
+
+/* Media Queries - Mobile 360px x 640px */
+@media only screen and (max-width: 360px) {
+    h1{
+        font-size: 20px !important;
+    }
+    
+    .negrita{
+        font-size: 24px !important;
+    }
+    
+    p{
+        font-size: 12px !important;
+    }
+    
+    .logos{
+        gap: 15px !important;
+        padding: 8px;
+    }
+    
+    .logos-h-f img{
+        max-height: 40px;
+    }
+    
+    nav a{
+        padding: 8px 15px;
+        font-size: 10px;
+    }
+    
+    .botones-otto {
+        gap: 8px;
+    }
+    
+    .link-imagen{
+        max-width: 160px;
+    }
+    
+    .otto-g, .otto-f, .capsulas, .portafolio{
+        height: 120px;
+    }
+    
+    .texto-boton, .texto-boton-grande {
+        font-size: 12px;
+    }
+    
+    .farm {
+        height: 200px;
+    }
+    
+    .otto-box {
+        width: 100%;
+        max-width: 220px;
+        height: 110px;
+    }
+    
+    .txt-farm p {
+        margin: 0 10px 0 50px;
+        font-size: 12px !important;
+    }
+    
+    .txt-farm button {
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+    }
+    
+    .farm-button {
+        margin-right: 40px;
+    }
+    
+    .iniciativa{
+        margin: 15px 10px;
+    }
+    
+    .mpr2024{
+        margin: 30px 0;
+        padding: 0 10px;
+    }
+    
+    .foto-mpr2024{
+        max-width: 200px;
+    }
+    
+    .enfoque{
+        margin: 15px 10px;
+    }
+    
+    .punto-lista img{
+        width: 40px;
+    }
+    
+    .obj-mpr{
+        margin: 15px 10px;
+        padding: 0;
+    }
+    
+    .redes-sociales{
+        gap: 15px;
+    }
+    
+    .redes-sociales p{
+        font-size: 12px !important;
+    }
+    
+    .redes-sociales a{
+        font-size: 10px !important;
+    }
+}
 /*fin logos*/
 
 /* Inicio Navbar */
@@ -193,16 +576,114 @@ nav a.der{
 .iniciativa{
     margin: 60px 50px;
     display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.foto-hub-desktop{
+    display: flex;
+    justify-content: center;
+    flex: 0 0 auto;
 }
 
 .foto-hub{
-    width:100%;
-    max-width:300px;
-    min-width:600px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
 }
 
 .texto-hub{
-    margin: 0 40px;
+    margin: 0;
+    flex: 1;
+}
+
+.contenedor-foto-hub-responsive{
+    display: none;
+}
+
+.foto-hub-responsive{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Tablet 768px x 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .iniciativa{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .foto-hub-desktop{
+        display: none;
+    }
+    
+    .contenedor-foto-hub-responsive{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .texto-hub{
+        width: 100%;
+    }
+}
+
+/* Mobile 414px x 738px */
+@media only screen and (max-width: 414px) {
+    .iniciativa{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 15px;
+        gap: 20px;
+    }
+    
+    .foto-hub-desktop{
+        display: none;
+    }
+    
+    .contenedor-foto-hub-responsive{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .texto-hub{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* Mobile 360px x 640px */
+@media only screen and (max-width: 360px) {
+    .iniciativa{
+        flex-direction: column;
+        align-items: center;
+        margin: 15px 10px;
+        gap: 15px;
+    }
+    
+    .foto-hub-desktop{
+        display: none;
+    }
+    
+    .contenedor-foto-hub-responsive{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .foto-hub-responsive{
+        max-width: 250px;
+    }
+    
+    .texto-hub{
+        width: 100%;
+        margin: 0;
+    }
 }
 
 /* Fin Iniciativa */
