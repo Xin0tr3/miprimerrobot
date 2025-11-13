@@ -22,8 +22,9 @@ p{
 
 .textos{
     text-align: center;
-    border-bottom: 1px solid #1d4c96;
+    border-bottom: 2px solid #1d4c96;
     margin: 30px 50px;
+    padding-bottom: 10px;
 }
 
 .disclaimer{
@@ -97,6 +98,8 @@ p{
     
     .texto-boton, .texto-boton-grande {
         font-size: 20px;
+        padding: 0 !important;
+        text-align: center !important;
     }
     
     .iniciativa{
@@ -229,6 +232,8 @@ p{
     
     .texto-boton, .texto-boton-grande {
         font-size: 16px;
+        padding: 0 !important;
+        text-align: center !important;
     }
     
     .farm {
@@ -372,11 +377,11 @@ p{
     }
     
     .otto-g, .otto-f, .capsulas, .portafolio{
-        height: 120px;
+        height: 100px !important;
     }
     
     .texto-boton, .texto-boton-grande {
-        font-size: 12px;
+        font-size: 15px !important;
     }
     
     .farm {
@@ -1119,7 +1124,7 @@ display:block;
 }
 
 nav ul.barra{
-display: flex;
+display: none;
 flex-wrap: wrap;
 flex-direction: column;
 }
