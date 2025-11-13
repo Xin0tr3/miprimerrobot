@@ -28,6 +28,24 @@
 
 <nav>
     <ul>
+        <li class="esconder"> <a class="izq" href="#section1">INICIO</a> </li>
+        <li class="esconder"> <a href="#section2">OTTO FARM</a> </li>
+        <li class="esconder"> <a href="#section3">GUIAS OTTO</a> </li>
+        <li class="esconder"> <a href="#section4">CAPSULAS DE VIDEO</a> </li>
+        <li class="esconder"> <a href="#section5">PORTAFOLIO 2024</a> </li>
+        <li class="esconder"> <a class="der" href="#section6">INNOVA UTEM</a> </li>
+        <li class="menu" onclick=mostrarBarra()> <svg xmlns="http://www.w3.org/2000/svg" height="48px"
+                viewBox="0 -960 960 960" width="48px" fill="#e3e3e3">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg> </li>
+    </ul>
+
+    <ul class="barra">
+        <li onclick=esconderBarra()> <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960"
+                width="48px" fill="#e3e3e3">
+                <path
+                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+            </svg></li>
         <li> <a class="izq" href="#section1">INICIO</a> </li>
         <li> <a href="#section2">OTTO FARM</a> </li>
         <li> <a href="#section3">GUIAS OTTO</a> </li>
@@ -247,3 +265,15 @@
 </footer>
 
 </html>
+
+<script>
+    function mostrarBarra() {
+        const barra = document.querySelector('.barra');
+        barra.style.display = 'flex';
+    }
+
+    function esconderBarra() {
+        const barra = document.querySelector('.barra');
+        barra.style.display = 'none';
+    }
+</script>

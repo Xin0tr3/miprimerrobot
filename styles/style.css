@@ -292,14 +292,10 @@ p{
         padding: 0 10px;
     }
     
-    .punto-lista{
-        flex-direction: column;
-        text-align: center;
-    }
-    
     .punto-lista img{
-        margin-bottom: 10px;
         width: 50px;
+        height: 50px;
+        min-width: 50px;
     }
     
     .obj-mpr{
@@ -439,8 +435,13 @@ p{
 
 /* Inicio Navbar */
 nav{
-    background-color: #1d4c96;
+background-color: #1d4c96;
+position: sticky;
+top: 0;
+z-index: 100;
+width: 100%;
 }
+
 
 nav ul{
     list-style: none;
@@ -479,6 +480,12 @@ nav a.izq{
 nav a.der{
     border-right: 2px solid white;
 }
+
+nav li:last-child {
+margin-left: auto;
+padding-right: 20px;
+}
+
 /*Fin Navbar*/
 
 /*Banner*/
@@ -822,13 +829,51 @@ nav a.der{
 
 .listas-enfoque{
     list-style: none;
-    padding: 0;
+    padding: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.listas-enfoque li{
+    width: 100%;
+    display: flex;
+    padding: 0 !important;
+    margin: 0 !important;
+    align-items: flex-start;
 }
 
 .punto-lista{
     display:flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+    gap: 15px;
+}
+
+.punto-lista:first-child{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.punto-lista img{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.punto-lista p{
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    min-width: 0;
+}
+
+.texto-enfoque .punto-lista{
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .lista-negrita{
@@ -859,17 +904,6 @@ nav a.der{
     .texto-enfoque{
         width: 100%;
     }
-    
-    .punto-lista{
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
-    }
-    
-    .punto-lista img{
-        width: 60px;
-        margin-bottom: 10px;
-    }
 }
 
 /* Mobile 414px x 738px */
@@ -896,14 +930,14 @@ nav a.der{
         margin: 0;
     }
     
-    .punto-lista{
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
+    .listas-enfoque{
+        padding: 0 10px;
     }
     
     .punto-lista img{
         width: 50px;
+        height: 50px;
+        min-width: 50px;
     }
 }
 
@@ -934,16 +968,6 @@ nav a.der{
         width: 100%;
         margin: 0;
     }
-    
-    .punto-lista{
-        flex-direction: column;
-        text-align: center;
-        gap: 8px;
-    }
-    
-    .punto-lista img{
-        width: 40px;
-    }
 }
 
 /* Fin Enfoque */
@@ -961,6 +985,7 @@ nav a.der{
     align-items: center;
     justify-content: center;
     gap: 10px;
+    display: flex;
 }
 
 .redes-sociales p{
@@ -1033,6 +1058,66 @@ nav a.der{
     background-color: #1d4c96;
     border-radius: 20px;
 }
+
+/* barra lateral */
+
+.barra{
+position:fixed;
+top:0;
+right:0;
+height:100vh;
+width:200px;
+z-index:1000;
+background-color:#1d4c96;
+justify-content: flex-start;
+display: none;
+align-items: flex-start;
+flex-direction: column;
+}
+
+.barra li{
+width:100%;
+display: block;
+justify-content: center;
+align-items: center;
+display: block;
+}
+
+.barra li svg{
+align-items: flex-end;
+justify-content: center;
+}
+
+.barra a{
+padding: 0;
+border: none !important;
+}
+
+.menu{
+display:none;
+}
+
+
+@media only screen and (max-width: 991px) {
+.esconder{
+display: none;
+}
+
+.menu{
+display:block;
+}
+
+nav ul.barra{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+nav a.izq, nav a.der, nav a{
+border: none !important;
+}
+}
+
 
 /* Tablet 768px x 1024px */
 @media only screen and (max-width: 1024px) {
