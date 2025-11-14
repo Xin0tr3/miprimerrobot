@@ -28,6 +28,18 @@ p.textos{
     font-weight: 900 !important;
 }
 
+.textos{
+    text-align: center;
+    border-bottom: 2px solid #1d4c96;
+    margin: 30px 50px;
+    padding-bottom: 10px;
+}
+
+.disclaimer{
+    font-size: 14px !important;
+    margin: 30px 50px;
+}
+
 /*logos*/
 .logos{
     display: flex;
@@ -332,16 +344,400 @@ p.textos{
         border: none !important;
     }
 }
+
+/* Media Queries - Tablet 768px x 1024px */
+@media only screen and (max-width: 1024px) {
+    h1{
+        font-size: 36px !important;
+    }
+    
+    .negrita{
+        font-size: 42px !important;
+    }
+    
+    p{
+        font-size: 16px !important;
+    }
+    
+    nav a{
+        padding: 0 30px;
+        font-size: 14px;
+    }
+    
+    .botones-otto {
+        gap: 15px;
+    }
+    
+    .link-imagen{
+        width: 180px;
+    }
+    
+    .otto-g, .otto-f, .capsulas, .portafolio{
+        height: 200px;
+    }
+    
+    .texto-boton, .texto-boton-grande {
+        font-size: 20px;
+        padding: 0 !important;
+        text-align: center !important;
+    }
+    
+    .iniciativa{
+        margin: 40px 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .foto-hub{
+        max-width: 250px;
+        min-width: 250px;
+        margin-bottom: 20px;
+    }
+    
+    .texto-hub{
+        margin: 0;
+    }
+    
+    .mpr2024{
+        padding: 0 30px;
+        flex-direction: column;
+        margin: 60px 0;
+    }
+    
+    .foto-mpr2024{
+        width: 350px;
+    }
+    
+    .enfoque{
+        margin: 40px 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .foto-enfoque{
+        max-width: 250px;
+        min-width: 250px;
+        margin-bottom: 20px;
+    }
+    
+    .texto-enfoque{
+        margin: 0;
+    }
+    
+    .obj-mpr{
+        margin: 40px 30px;
+        padding: 0 50px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .obj-mpr img{
+        max-width: 250px;
+        min-width: 250px;
+    }
+    
+    .redes-sociales{
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    
+    .redes-sociales p{
+        font-size: 18px !important;
+    }
+    
+    .redes-sociales a{
+        font-size: 16px !important;
+    }
+}
+
+/* Media Queries - Mobile 414px x 738px */
+@media only screen and (max-width: 414px) {
+    h1{
+        font-size: 24px !important;
+    }
+    
+    .negrita{
+        font-size: 28px !important;
+    }
+    
+    p{
+        font-size: 14px !important;
+    }
+    
+    .logos{
+        gap: 20px !important;
+        padding: 10px;
+    }
+    
+    .logos-h-f img{
+        max-height: 50px;
+    }
+    
+    nav ul{
+        flex-wrap: wrap;
+    }
+    
+    nav li{
+        height: auto;
+    }
+    
+    nav a{
+        padding: 10px 20px;
+        font-size: 12px;
+        border: none;
+    }
+    
+    nav a.izq, nav a.der{
+        border: none;
+    }
+    
+    .botones {
+        padding: 20px 10px;
+    }
+    
+    .botones-otto {
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .link-imagen{
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .otto-g, .otto-f, .capsulas, .portafolio{
+        height: 150px;
+    }
+    
+    .texto-boton, .texto-boton-grande {
+        font-size: 16px;
+        padding: 0 !important;
+        text-align: center !important;
+    }
+    
+    .farm {
+        height: 250px;
+    }
+    
+    .otto-box {
+        width: 100%;
+        max-width: 280px;
+        height: 140px;
+    }
+    
+    .txt-farm p {
+        margin: 0 10px 0 60px;
+        font-size: 14px !important;
+    }
+    
+    .txt-farm button {
+        width: 100px;
+        height: 24px;
+        font-size: 12px;
+    }
+    
+    .farm-button {
+        margin-right: 50px;
+        margin-top: 5px;
+    }
+    
+    .iniciativa{
+        margin: 20px 15px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .foto-hub{
+        max-width: 100%;
+        min-width: auto;
+    }
+    
+    .texto-hub{
+        margin: 0;
+    }
+    
+    .mpr2024{
+        margin: 40px 0;
+        padding: 0 15px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .foto-mpr2024{
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .enfoque{
+        margin: 20px 15px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .foto-enfoque{
+        max-width: 100%;
+        min-width: auto;
+    }
+    
+    .texto-enfoque{
+        margin: 0;
+    }
+    
+    .listas-enfoque{
+        padding: 0 10px;
+    }
+    
+    .punto-lista img{
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+    }
+    
+    .obj-mpr{
+        margin: 20px 15px;
+        padding: 0;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .obj-mpr img{
+        max-width: 100%;
+        min-width: auto;
+    }
+    
+    .redes-sociales{
+        gap: 20px;
+        flex-direction: column;
+    }
+    
+    .redes-sociales p{
+        font-size: 14px !important;
+    }
+    
+    .redes-sociales a{
+        font-size: 12px !important;
+    }
+}
+
+/* Media Queries - Mobile 360px x 640px */
+@media only screen and (max-width: 360px) {
+    h1{
+        font-size: 20px !important;
+    }
+    
+    .negrita{
+        font-size: 24px !important;
+    }
+    
+    p{
+        font-size: 12px !important;
+    }
+    
+    .logos{
+        gap: 15px !important;
+        padding: 8px;
+    }
+    
+    .logos-h-f img{
+        max-height: 40px;
+    }
+    
+    nav a{
+        padding: 8px 15px;
+        font-size: 10px;
+    }
+    
+    .botones-otto {
+        gap: 8px;
+    }
+    
+    .link-imagen{
+        max-width: 160px;
+    }
+    
+    .otto-g, .otto-f, .capsulas, .portafolio{
+        height: 100px !important;
+    }
+    
+    .texto-boton, .texto-boton-grande {
+        font-size: 15px !important;
+    }
+    
+    .farm {
+        height: 200px;
+    }
+    
+    .otto-box {
+        width: 100%;
+        max-width: 220px;
+        height: 110px;
+    }
+    
+    .txt-farm p {
+        margin: 0 10px 0 50px;
+        font-size: 12px !important;
+    }
+    
+    .txt-farm button {
+        width: 80px;
+        height: 20px;
+        font-size: 10px;
+    }
+    
+    .farm-button {
+        margin-right: 40px;
+    }
+    
+    .iniciativa{
+        margin: 15px 10px;
+    }
+    
+    .mpr2024{
+        margin: 30px 0;
+        padding: 0 10px;
+    }
+    
+    .foto-mpr2024{
+        max-width: 200px;
+    }
+    
+    .enfoque{
+        margin: 15px 10px;
+    }
+    
+    .punto-lista img{
+        width: 40px;
+    }
+    
+    .obj-mpr{
+        margin: 15px 10px;
+        padding: 0;
+    }
+    
+    .redes-sociales{
+        gap: 15px;
+    }
+    
+    .redes-sociales p{
+        font-size: 12px !important;
+    }
+    
+    .redes-sociales a{
+        font-size: 10px !important;
+    }
+}
 /*fin logos*/
 
 /* Inicio Navbar */
 nav{
-    background-color: #1d4c96;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    width: 100%;
+background-color: #1d4c96;
+position: sticky;
+top: 0;
+z-index: 100;
+width: 100%;
 }
+
 
 nav ul{
     list-style: none;
@@ -392,41 +788,11 @@ nav a.der{
     border-right: 2px solid white;
 }
 
-.barra{
-    position:fixed;
-    top:0;
-    right:0;
-    height:100vh;
-    width:200px;
-    z-index:1000;
-    background-color:#1d4c96;
-    justify-content: flex-start;
-    display: none;
-    align-items: flex-start;
-    flex-direction: column;
+nav li:last-child {
+margin-left: auto;
+padding-right: 20px;
 }
 
-.barra li{
-    width:100%;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    display: block;
-}
-
-.barra li svg{
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.barra a{
-    padding: 0;
-    border: none !important;
-}
-
-.menu{
-    display:none;
-}
 /*Fin Navbar*/
 
 @media only screen and (max-width: 991px) {
@@ -544,16 +910,114 @@ nav a.der{
 .iniciativa{
     margin: 60px 50px;
     display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.foto-hub-desktop{
+    display: flex;
+    justify-content: center;
+    flex: 0 0 auto;
 }
 
 .foto-hub{
-    width:100%;
-    max-width:300px;
-    min-width:600px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
 }
 
 .texto-hub{
-    margin: 0 40px;
+    margin: 0;
+    flex: 1;
+}
+
+.contenedor-foto-hub-responsive{
+    display: none;
+}
+
+.foto-hub-responsive{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Tablet 768px x 1024px */
+@media only screen and (max-width: 1024px) {
+    .iniciativa{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .foto-hub-desktop{
+        display: none;
+    }
+    
+    .contenedor-foto-hub-responsive{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .texto-hub{
+        width: 100%;
+    }
+}
+
+/* Mobile 414px x 738px */
+@media only screen and (max-width: 414px) {
+    .iniciativa{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 15px;
+        gap: 20px;
+    }
+    
+    .foto-hub-desktop{
+        display: none;
+    }
+    
+    .contenedor-foto-hub-responsive{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .texto-hub{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* Mobile 360px x 640px */
+@media only screen and (max-width: 360px) {
+    .iniciativa{
+        flex-direction: column;
+        align-items: center;
+        margin: 15px 10px;
+        gap: 15px;
+    }
+    
+    .foto-hub-desktop{
+        display: none;
+    }
+    
+    .contenedor-foto-hub-responsive{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .foto-hub-responsive{
+        max-width: 250px;
+    }
+    
+    .texto-hub{
+        width: 100%;
+        margin: 0;
+    }
 }
 
 /* Fin Iniciativa */
@@ -657,33 +1121,182 @@ nav a.der{
 .enfoque{
     margin: 60px 50px;
     display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.foto-enfoque-desktop{
+    display: flex;
+    justify-content: center;
+    flex: 0 0 auto;
 }
 
 .foto-enfoque{
-    width:100%;
-    max-width:300px;
-    min-width:400px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
 }
 
 .texto-enfoque{
-    margin: 0 40px;
+    margin: 0;
+    flex: 1;
+}
+
+.contenedor-foto-enfoque-responsive{
+    display: none;
+}
+
+.foto-enfoque-responsive{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: contain;
 }
 
 .listas-enfoque{
     list-style: none;
-    padding: 0;
+    padding: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.listas-enfoque li{
+    width: 100%;
+    display: flex;
+    padding: 0 !important;
+    margin: 0 !important;
+    align-items: flex-start;
 }
 
 .punto-lista{
     display:flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+    gap: 15px;
+}
+
+.punto-lista:first-child{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.punto-lista img{
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.punto-lista p{
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    min-width: 0;
+}
+
+.texto-enfoque .punto-lista{
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .lista-negrita{
     font-weight: 800 !important;
     color: #1d4c96;
 }
+
+/* Tablet 768px x 1024px */
+@media only screen and (max-width: 1024px) {
+    .enfoque{
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 30px;
+        gap: 20px;
+    }
+    
+    .foto-enfoque-desktop{
+        display: none;
+    }
+    
+    .contenedor-foto-enfoque-responsive{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .texto-enfoque{
+        width: 100%;
+    }
+}
+
+/* Mobile 414px x 738px */
+@media only screen and (max-width: 414px) {
+    .enfoque{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 15px;
+        gap: 15px;
+    }
+    
+    .foto-enfoque-desktop{
+        display: none;
+    }
+    
+    .contenedor-foto-enfoque-responsive{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .texto-enfoque{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .listas-enfoque{
+        padding: 0 10px;
+    }
+    
+    .punto-lista img{
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+    }
+}
+
+/* Mobile 360px x 640px */
+@media only screen and (max-width: 360px) {
+    .enfoque{
+        flex-direction: column;
+        align-items: center;
+        margin: 15px 10px;
+        gap: 15px;
+    }
+    
+    .foto-enfoque-desktop{
+        display: none;
+    }
+    
+    .contenedor-foto-enfoque-responsive{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .foto-enfoque-responsive{
+        max-width: 250px;
+    }
+    
+    .texto-enfoque{
+        width: 100%;
+        margin: 0;
+    }
+}
+
 /* Fin Enfoque */
 
 /* Redes sociales */
@@ -699,6 +1312,7 @@ nav a.der{
     align-items: center;
     justify-content: center;
     gap: 10px;
+    display: flex;
 }
 
 .redes-sociales p{
@@ -767,9 +1381,149 @@ nav a.der{
     max-width:300px;
 }
 
-
-
 .contenido-mpr{
     background-color: #1d4c96;
     border-radius: 20px;
+}
+
+/* barra lateral */
+
+.barra{
+position:fixed;
+top:0;
+right:0;
+height:100vh;
+width:200px;
+z-index:1000;
+background-color:#1d4c96;
+justify-content: flex-start;
+display: none;
+align-items: flex-start;
+flex-direction: column;
+}
+
+.barra li{
+width:100%;
+display: block;
+justify-content: center;
+align-items: center;
+display: block;
+}
+
+.barra li svg{
+align-items: flex-end;
+justify-content: center;
+}
+
+.barra a{
+padding: 0;
+border: none !important;
+}
+
+.menu{
+display:none;
+}
+
+
+@media only screen and (max-width: 991px) {
+.esconder{
+display: none;
+}
+
+.menu{
+display:block;
+}
+
+nav ul.barra{
+display: none;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+nav a.izq, nav a.der, nav a{
+border: none !important;
+}
+}
+
+
+/* Tablet 768px x 1024px */
+@media only screen and (max-width: 1024px) {
+    .obj-mpr{
+        margin: 40px 30px;
+        padding: 0 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .obj-mpr > div:first-child{
+        width: 100%;
+    }
+    
+    .obj-mpr img{
+        max-width: 250px;
+        min-width: auto;
+        width: 100%;
+    }
+    
+    .contenido-mpr{
+        width: 100%;
+    }
+}
+
+/* Mobile 414px x 738px */
+@media only screen and (max-width: 414px) {
+    .obj-mpr{
+        margin: 20px 15px;
+        padding: 0 10px;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .obj-mpr > div:first-child{
+        width: 100%;
+    }
+    
+    .obj-mpr img{
+        max-width: 100%;
+        min-width: auto;
+        width: 100%;
+    }
+    
+    .contenido-mpr{
+        width: 100%;
+    }
+    
+    .logo-otto{
+        max-width: 100%;
+    }
+}
+
+/* Mobile 360px x 640px */
+@media only screen and (max-width: 360px) {
+    .obj-mpr{
+        margin: 15px 10px;
+        padding: 0;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .obj-mpr > div:first-child{
+        width: 100%;
+    }
+    
+    .obj-mpr img{
+        max-width: 100%;
+        min-width: auto;
+        width: 100%;
+    }
+    
+    .contenido-mpr{
+        width: 100%;
+    }
+    
+    .logo-otto{
+        max-width: 100%;
+    }
 }
